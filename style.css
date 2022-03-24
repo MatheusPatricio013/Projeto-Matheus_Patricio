@@ -1,26 +1,19 @@
-body{
-    background-color: rgb(202, 193, 192);
-}
-h1{
-    color:dodgerblue;
-    font-family:monospace;
-}
-
-h3{
-    color:dodgerblue;
-    font-family:monospace
-}
-span{
-    align-items: center;
-    color: rgb(95, 100, 28);
-    font-family:arial;
-    font-size: 18px;
+.header{
+    background-color: #000407;
+    color: #3289C2;
     
 }
-
-.destaque{
-    background-color: yellow;
+.container{
+    display: flex;
+    justify-content: space-between;
 }
-#destaqueEspecial{
-    background-color: aquamarine;
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+}
+.navbar a{
+    text-decoration: none;
+    color: aqua;
 }
