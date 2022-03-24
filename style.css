@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(202, 193, 192);
+}
+h1{
+    color:dodgerblue;
+    font-family:monospace;
+}
+
+h3{
+    color:dodgerblue;
+    font-family:monospace
+}
+span{
+    align-items: center;
+    color: rgb(95, 100, 28);
+    font-family:arial;
+    font-size: 18px;
+    
+}
+
+.destaque{
+    background-color: yellow;
+}
+#destaqueEspecial{
+    background-color: aquamarine;
+}
