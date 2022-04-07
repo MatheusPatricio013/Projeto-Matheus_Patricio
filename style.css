@@ -40,6 +40,15 @@
     display: flex;
     align-items: center;
 }
+.banner .container.cadastro{
+    height: 630px;
+   justify-content: center;
+}
+.banner .container.login{
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
 .banner p{
     color: white;
     font-size: 36px;
@@ -53,8 +62,11 @@
 .footer .container{
     height: 150px;
     display: flex;
-    align-items: center;
+    
     justify-content: center;
+}
+.footer .container h4{
+margin-top: 18px;
 }
 .Agora{
     font-weight: 900;
@@ -72,11 +84,23 @@
 .card h2{
     margin: 0;
 }
+.card_registro{
+    background-color: #E5E5E5;
+    color: #E6005A;
+    width: 400px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 form{
     display: flex;
     flex-direction: column;
     margin-top:24px;
     width: 250px;
+    
 }
 .banner .container.login{
     justify-content: center;
@@ -84,6 +108,7 @@ form{
 }
 form label{
     margin-top: 8px;
+    font-weight: bold;
 }
 form input{
     margin-top: 8px;
@@ -93,7 +118,7 @@ form input{
     padding: 8px;
 }
 form button{
-    margin-top:16px;
+    margin-top:25px;
     background-color: #E6005A;
     color: white;
     padding: 10px 15px;
@@ -103,4 +128,22 @@ form button{
     border: 0;
     border-radius: 5px;
     cursor: pointer;
+}
+#container_missao{
+    background-color:   #E5E5E5;
+    width: 100vw;
+    height: 412px;;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.image{
+    margin-top: 62px;
+    width: 150px;
+    height: 150px;
+}
+#container_missao h2{
+    text-align: center;
+    color: #E6005A;
 }
