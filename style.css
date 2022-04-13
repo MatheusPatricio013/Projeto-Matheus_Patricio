@@ -32,7 +32,7 @@
     color: #E3B062;
 }
 .banner{
-    background-image: url('bg-jelly-fish-para_outras_pags.png');
+    background-image: url('imagens/bg-jelly-fish-para_outras_pags.png');
     background-size: cover;
 }
 .banner .container{
@@ -85,15 +85,35 @@ margin-top: 18px;
     margin: 0;
 }
 .card_registro{
-    background-color: #E5E5E5;
-    color: #E6005A;
+    background-color: #ffffff9c;
+    color: #a7194f;
     width: 400px;
     height: 425px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
     
+}
+.card_registro form input{
+    margin-top: 8px;
+    outline: 3px solid #0353a4;
+    border: 0;
+    border-radius: 10px;
+    padding: 8px;
+}
+.card_registro form button{
+    margin-top:25px;
+    background-color: #4c031f;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
 }
 form{
     display: flex;
